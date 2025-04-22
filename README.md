@@ -1,12 +1,32 @@
-# React + Vite
+# Busca de Perfil GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto web React que permite aos usuários buscar e visualizar informações de perfis do GitHub.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Busca de perfis de usuários do GitHub.
+- Exibe informações como avatar, nome, bio, seguidores, seguindo e repositórios públicos.
+- Tratamento de erros para perfis não encontrados.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- GitHub API
+- CSS
+
+## Como Executar
+
+1.  Clone este repositório: `git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git`
+2.  Navegue até a pasta do projeto: `cd nome-do-seu-projeto`
+3.  Instale as dependências: `npm install` ou `yarn install`
+4.  Inicie o servidor de desenvolvimento: `npm run dev` ou `yarn dev`
+5.  Abra o navegador em `http://localhost:5173` (a porta pode variar).
+
+## Status do Projeto
+
+Finalizado.
+
+## Autor
+
+Richard custodio
