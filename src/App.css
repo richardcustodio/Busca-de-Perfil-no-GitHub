@@ -169,7 +169,7 @@ h1 {
     box-shadow: none;
     width: 100%;
     margin: 0;
-    min-height: calc(100vh - 30px);
+    min-height: calc(30vh - 30px);
     justify-content: flex-start;
   }
 
@@ -179,7 +179,7 @@ h1 {
   }
 
   .search-container {
-    flex-direction: column;
+    flex-direction: row;
     max-width: 95%;
   }
 
@@ -191,6 +191,7 @@ h1 {
   }
 
   .search-container button {
+    height: 2.8em;
     border-radius: 6px;
     padding: 12px 15px;
     font-size: 1em;
@@ -217,6 +218,7 @@ h1 {
   }
 
   .error-message {
+    width: 90%;
     font-size: 1em;
     padding: 12px;
   }
@@ -270,7 +272,7 @@ h1 {
 /* Responsividade - Telas Grandes (Desktops - min-width: 993px) */
 @media (min-width: 993px) {
   .App {
-    width: 60%;
+    width: 90%;
     max-width: 800px;
     padding: 30px;
   }
@@ -298,6 +300,7 @@ h1 {
   }
 
   .error-message {
+    width: 90%;
     font-size: 1.1em;
   }
 }

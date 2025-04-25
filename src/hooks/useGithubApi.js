@@ -25,7 +25,6 @@ const useGithubApi = () => {
         setProfileData(data);
       }
     } catch {
-      // Removendo a variável 'error'
       setErrorMessage("Ocorreu um erro de rede.");
     } finally {
       setLoading(false);
